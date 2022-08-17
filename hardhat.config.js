@@ -25,9 +25,9 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
     hardhat: {
       chainId: 1337
     },
-    goerli: {
-      url: "https://goerli.infura.io/v3/04132d4001834221a021b8e2eac7766c",
-      accounts: [`9b735ebf29fe7f88a0d2fe633e892d990609e61ca19103f593b7289a7c198422`],
+    ropsten: {
+      url: "https://ropsten.infura.io/v3/ec728920c04c4ad0a9aa987595f7425a",
+      accounts: [`122a0caab7d77e0540a66eefe1371bb7482bc11ce608726f78e3e6a879f0db66`],
   }
   }
 }

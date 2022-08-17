@@ -46,7 +46,7 @@ function My_Digital_Asset() {
         tokenId: i.tokenId.toNumber(),
         seller: i.seller,
         owner: i.owner,
-        image: meta.data.image,
+        image: meta.request.responseURL,
       }
       return item
     }))

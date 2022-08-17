@@ -46,7 +46,7 @@ import Index_Home from './components/templates/Index_Home';
   return (
     <>
     <Router>
-      <div className="App">
+      <div className="container">
       <Navbar account={account}/>
       <Menu/>
         <Routes>

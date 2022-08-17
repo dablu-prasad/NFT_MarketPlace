@@ -1,7 +1,5 @@
-
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-import Index_Home from './Index_Home';
 const Menu=()=>{
 const navigate=useNavigate();
     const navSellAsset=()=>{navigate('/sell_digital_asset')}
@@ -12,17 +10,17 @@ const navigate=useNavigate();
       <div className='App'>
 <div className="d-flex justify-content-center padding-top">
 <button type="button" className="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" onClick={navHome}>
-  Home
+  Event Marketplace
 </button>
 <button type="button" className="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" onClick={navSellAsset}>
-  Sell Digital Asset
+  Create Event
 </button>
 <button type="button" className="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" onClick={navMyAsset}>
-  My Digital Asset
+  My Event Ticket
 </button>
-<button type="button" className="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" onClick={navdashboard}>
+{/* <button type="button" className="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top" onClick={navdashboard}>
   Create DashBoard
-</button>
+</button> */}
 </div>
 </div>
     )

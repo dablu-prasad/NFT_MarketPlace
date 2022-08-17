@@ -6,7 +6,7 @@ const Navbar=(props)=>{
       <div>
      <nav className="navbar navbar-dark bg-dark">
    <div className="container-fluid">
-     <a className="navbar-brand">NFT marketplace</a>
+     <a className="navbar-brand">Event Ticket Sell</a>
       {/* <h5 className="navbar-brand">balance: {props.balance} {props.symbol}</h5>  */}
      <form className="d-flex"> 
        <h4 className="navbar-brand">account:{props.account}</h4>

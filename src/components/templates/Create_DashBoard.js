@@ -45,7 +45,7 @@ export default function Create_DashBoard() {
         seller: i.seller,
         owner: i.owner,
         sold: i.sold,
-        image: meta.data.image,
+        image: meta.request.responseURL,
       }
       return item
     }))
